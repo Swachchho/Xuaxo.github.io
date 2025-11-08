@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>position practise</title>
+    </head>
+    <body style="
+            height: 1000px;
+            padding-top: 70px ;
+            padding-left:72px ;">
+        <div style="
+            background-color: black;
+            color:white;
+            position:fixed;
+            top: 0px;
+            left: 0px;
+            right:30px;
+            bottom:300p(use height instead);
+            height:50px;
+            z-index: 1;"
+          >header
+        </div>
+
+        <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        top: 50px;
+        width:72px;
+            ">
+            sidebar
+            <div style="
+        position: absolute;
+        background-color: red;
+        top: 0px;
+        right: 0;
+        color: white;
+        z-index: 1;">
+        x
+        </div>
+
+        </div>
+
+        <div style="
+        position: absolute;
+        background-color: red;
+        top: 50px;
+        color: white;
+        z-index: 0;">
+        (scroll korle shore jabe)absolute
+        </div>
+
+
+
+        <div style="
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            position: static;
+            ">div 1</div>
+        <div style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+        ">div 2
+                <div style="
+        position: absolute;
+        background-color: black;
+        bottom: 10px;
+        right: 10px;
+        color: white;
+        z-index: 0;">
+        5:00
+        </div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,164 @@
+
+
+.Subscribe-button {
+    background-color: rgb(209, 9, 9);
+    color: white;
+    border: none;
+    height: 40px;
+    width:100px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.25s;
+    vertical-align: top;
+}
+.Subscribe-button:hover{
+    opacity: 0.7;
+    
+}
+.Subscribe-button:active{
+    opacity: 0.5;
+}
+
+
+
+
+
+.join-button{
+    background-color: white;
+    border-color: rgb(0, 174, 255);
+    border-style: solid;
+    border-width: 2px;
+    color: rgb(0, 174, 255);
+    height: 38px;
+    width: 60px;
+    border-radius: 3px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.5s,
+    color 0.5s;
+
+}
+.join-button:hover{
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
+.join-button:active{
+    opacity: 0.5;
+}
+
+
+
+
+.tweet-button{
+    background-color: rgb(0, 204, 255);
+    color: white;
+    border: none;
+    border-radius: 100px;
+    height: 38px;
+    width: 80px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: box-shadow 0.25s
+}
+.tweet-button:hover{
+    box-shadow: 0.5px 0px 10px rgba(0, 0, 0, 1);
+}
+.tweet-button:active{
+    opacity: .5
+}
+
+
+
+
+
+.request-button{
+    background-color: rgb(0, 0, 0);
+    height: 38px;
+    width: 130px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    transition: opacity 0.25s;
+    box-shadow: 10px 10px 10px rgba(196, 15, 15, 10)
+}
+.request-button:hover{
+    opacity: 0.8;
+}
+.request-button:active{
+    opacity: 0.5;
+}
+
+
+
+
+.save-button{
+    background-color: white;
+    color: rgb(0, 162, 255);
+    font-weight: bolder;
+    border-radius: 60px;
+    border-color: rgb(0, 162, 255);
+    font-size: 15px;
+    transition: box-shadow .5s;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.save-button:hover{
+    background-color: rgb(40, 209, 18);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+}
+.save-button:active{
+    background-color: rgb(231, 61, 18);
+}
+
+.stretch-button {
+background-color: rgb(231, 70, 22);
+color: white;
+border: none;
+font-size: 18px;
+border-radius: 5px;
+margin-left: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 15px;
+padding-right: 15px;
+cursor: pointer;
+transition: padding-top 1s,
+  padding-bottom 1s,
+  padding-left 1s,
+  padding-right 1s;
+}
+
+.stretch-button:hover {
+padding-top: 18px;
+padding-bottom: 18px;
+padding-left: 36px;
+padding-right: 36px;
+}
+
+.threeD-button {
+background-color: green;
+color: white;
+border: none;
+font-size: 18px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 16px;
+padding-right: 16px;
+cursor: pointer;
+box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.threeD-button:active {
+margin-top: 3px;
+margin-left: 3px;
+box-shadow: none;
+}
+
